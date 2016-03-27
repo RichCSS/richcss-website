@@ -1,0 +1,26 @@
+@font-face {
+    font-family: AvenirHeavy;
+    src: url("../AvenirHeavy.ttf");
+}
+@font-face {
+    font-family: AvenirLight;
+    src: url("../AvenirLight.ttf");
+}
+@font-face {
+    font-family: CourierBold;
+    src: url("../courier-bold.ttf");
+}
+@font-face {
+    font-family: HelveticaBold;
+    src: url("../Helvetica-Bold.ttf");
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../HelveticaNeue Medium.ttf");
+}
+body{
+	font-family: AvenirHeavy;
+}
+p{
+	font-family: AvenirLight;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RichCSS</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <title>RichCSS || <%= @title %> </title>
+</head>
+<body class="body-bg">
+<header class="<%= @title == 'Homepage' ? 'home-page' : 'inner-page' %>">
+    <div class="container">
+        <div class="row">
+        	<% if @title == "Homepage" %>
+	            <div class="col-md-4">
+	                <div class="big-logo">
+	                    <span class="logo-text">
+	                        <span class="big-text dark-grey-text">RichCSS</span>
+	                        <span class="small-text yellow-text">CSS that doesn’t drive you NUTS</span>
+	                        <%= link_to(root_path) do %>
+	                        	<%= image_tag('logo.svg', class: 'big-logo-img') %>
+	                        <% end %>
+	                    </span>
+	                </div>
+	            </div>
+            <% else %>
+	            <div class="col-md-4">
+	            	<%= link_to(root_path) do %>
+	                	<%= image_tag('logo.svg', class: 'small-logo-img') %>
+	                <% end %>
+	            </div>
+            <% end %>
+            <div class="col-md-8">
+                <nav class="menu-list">
+                    <ul class="float-right">
+                        <li><%= link_to("Documentation", documentations_introduction_path, class: 'red-text') %></li>
+                        <li><%= link_to("Ask for Help", "https://stackoverflow.com/search?q=richcss", class: 'red-text') %></li>
+                        <li><%= link_to("Contribute on Github", "https://github.com/RichCSS", class: 'red-text') %></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <% if @title == "Homepage" %>
+        	<div class="row">
+        	    <div class="col-md-6">
+        	        <div class="tree-img-section">
+        	            <span></span>
+        	            <%= image_tag('tree.png') %>
+        	        </div>
+        	    </div>
+        	    <div class="col-md-6">
+        	        <div class="hd-right-content">
+        	            <h1 class="light-gray-text">Beautiful, DRY,<br> Clean and Reusable CSS</h1>
+        	            <h2 class="dark-grey-text">The CSS Framework for your Team</h2>
+        	            <div class="hd-content-rd">
+        	            	<%= link_to('Get Started', documentations_getting_started_path, class: 'btn-get-started red-bg white-color' ) %>
+        	                <span class="hd-small-text dark-grey-text">Latest:</span> 
+        	                <b class="hd-small-text">1.0.0 - </b>
+        	                <%= link_to("Release Notes", pages_releases_path, class: 'hd-small-text red-text whats-new'  )%>
+        	            </div>
+	
+        	        </div>
+        	    </div>
+        	</div>
+        <% end %>
+    </div>
+</header>
+<%= yield %>
+<footer class="footer">
+    <div class="row">
+        <div class="col-md-9">
+            <p>© 2016 The RichCSS Team and contributors. RichCSS is available for use and modification under the <a href="https://opensource.org/licenses/MIT" class="red-text">MIT License.</a></p>
+        </div>
+        <div class="col-md-3">
+            <p class="right-alignment">
+                <span>Designed & Built by</span>
+                <a href="http://www.richdx.com" class="btn-builtdby">Rich Dx Studio</a>
+            </p>
+        </div>
+    </div>
+</footer>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>

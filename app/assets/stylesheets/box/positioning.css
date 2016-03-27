@@ -1,0 +1,25 @@
+.center-alignment {
+  text-align: center;
+ }
+.justify-alignment {
+  text-align: justify;
+ }
+.left-alignment {
+  text-align: left;
+ }
+.right-alignment {
+  text-align: right;
+ }
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+ }
+.float-right {
+  float: right;
+ }
+.float-left {
+  float: left;
+ }
+ span.indent{
+ 	padding-left:30px;
+ }

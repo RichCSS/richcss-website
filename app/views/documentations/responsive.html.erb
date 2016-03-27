@@ -1,0 +1,64 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Responsive</h3>
+                    <h3 class="content-heading black-color">Responsive</h3>
+
+                    <p>Responsive web design is an approach to web design aimed at crafting sites to provide an optimal viewing and interactive experience —easy to read and navigate with minimal resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones)</p>
+
+                    <p>
+                        <b>RichCSS takes advantage of the power of SASS for</b><br/>
+                        Building a Responsive Website with RichCSS will help you organize your device rules.
+                    </p>
+
+                    <p>You can add an additional folder to the box folder if you want to define rules for each device.</p>
+
+                    <p>
+                        Stylesheets/ <br/>
+                        <span class="indent"></span>Box/<br/>
+                        <span class="indent"></span><span class="indent"></span>Devices/<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="indent"></span>desktop_block.scss<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="indent"></span>mobile_block.scss<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="indent"></span>tablet_block.css<br/>
+                        <span class="indent"></span><span class="indent"></span>blocks.scss<br/>
+                        <span class="indent"></span><span class="indent"></span>main.scss<br/>
+                        <span class="indent"></span><span class="indent"></span>positioning.scss<br/>
+                        <span class="indent"></span>Elements/<br/>
+                        <span class="indent"></span>Parts/<br/>
+                        <span class="indent"></span>route.scss
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in desktop_block.scss </span>
+                        <span class="text-code orange-text">
+                            @media (min-width: 768px) and (max-width: 1023px) {<br/>
+                            <span class="indent"></span>p {<br/>
+                            <span class="indent"></span><span class="indent"></span>font-size: 18px;<br/>
+                            <span class="indent"></span>}<br/>
+                            }
+                        </span>
+                    </p>
+
+                    <p>You can then import all the devices’ blocks inside your block folder.</p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in block.scss </span>
+                        <span class="text-code orange-text">
+                            @import <span class="black-text">url(‘devices/tablet_block.scss’)(min-width: 900px)</span>;<br/>
+                            @import <span class="black-text">url(‘devices/mobile_block.scss’)(min-width: 900px)</span>;<br/>
+                            @import <span class="black-text">url(‘devices/desktop_block.scss’)(min-width: 900px)</span>;
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

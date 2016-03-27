@@ -1,0 +1,330 @@
+/*@import url("../parts/bootstrap.min.css");
+@import url("../parts/font-awesome.min.css");*/
+header.home-page{
+	padding-top: 45px;
+}
+.hd-right-content{
+	padding-left: 150px;
+}
+	.hd-right-content h1{
+		font-size: 35px;
+		line-height: 40px;
+		margin-top: 80px;
+		margin-bottom: 10px;
+	}
+	.hd-right-content h2{
+		font-size: 25px;
+		line-height: 32px;
+		margin-bottom: 15px;
+	}
+		.hd-content-rd span{
+			font-weight: lighter;
+		}
+		.hd-content-rd a.whats-new{
+			text-decoration: none;
+		}
+		.hd-small-text{
+			font-size: 13px;
+		}
+
+/*Header Ends*/
+
+.before-after{
+	padding: 25px 0;
+}
+	.before-section>span.bs-text{
+		font-size: 12px;
+		margin-right: 167px;
+		margin-top: 14px;
+	}
+	.after-section>span.as-text{
+		font-size: 12px;
+		margin-left: 167px;
+		margin-top: 14px;
+	}
+
+/*Before After Ends*/
+
+.usable-notusable{
+	padding: 10px 0;
+}
+	.notusable>h2{
+		font-size: 25px;
+		text-transform: uppercase;
+		margin-bottom: 65px;
+	}
+	.notusable>h1{
+		font-size: 25px;
+		line-height: 35px;
+		/*font-weight: bold;*/
+	}
+	.notusable>p{
+		font-size: 15px;
+		line-height: 18px;
+		margin-top: 10px;
+	}
+	.usable>h2{
+		font-size: 25px;
+		text-transform: uppercase;
+		margin-bottom: 32px;
+	}
+	.usable>h3{
+		font-size: 16px;
+		margin-top: 20px;
+		padding-left: 50px;
+	}
+
+/*Usable Not Usable Ends*/
+.installation{
+	padding: 25px 0;
+	margin-top: 65px;
+}
+	.install-with-rail h2{
+		font-size: 24px;
+		line-height: 30px;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.install-with-rail p{
+		font-size: 20px;
+		line-height: 30px;
+		display: inline-block;
+	}
+	.install-commands{
+		margin-top: 10px;
+		margin-left: 60px;
+	}
+		.install-commands p{
+			font-size: 16px;
+			line-height: 16px;
+			margin-bottom: 5px;
+		}
+		.install-commands>span{
+			    display: inline-block;
+			    padding: 13px 10px;
+			    line-height: 15px;
+			    font-size: 17px;
+			    width: 262px;
+			    margin-bottom: 10px;
+		}
+	.btn-dhg{
+		padding-left: 35%;
+		padding-top: 70px;
+	}
+/*Installation Ends*/
+.search{
+	padding: 40px 0;
+}
+	.search h2{
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.search-text{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+		.search-text span{
+			font-size: 10px;
+		}
+/*Search Ends*/
+.thanks p{
+	font-size: 14px;
+    line-height: 23px;
+}
+	.thanks p.thanks-view{
+		font-family: AvenirHeavy;
+	}
+/*Thanks Ends*/
+.built-with{
+	padding: 60px 0;
+	margin-bottom: 82px;
+}
+	.built-with h1{
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 15px;
+	}
+	.built-with p{
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 26px;
+	}
+		.built-with p b{
+			font-weight: bold;
+		}
+/*Built With Ends*/
+.footer{
+	padding: 20px;
+	padding-top: 45px;
+	background: #d8f0fe url(../footer-bg.jpg) 0 -19px repeat-x; 
+}
+	.footer p{
+		font-size: 12px;
+		line-height: 15px;
+	}
+/*Footer Ends*/
+.inner-page{
+	background-color: #fffbed;
+	padding: 10px 0;
+	border-bottom: 6px solid #e7e7e7;
+}
+	.inner-wrapper{
+		padding: 25px 0;
+	}
+		.page-heading{
+			font-size: 45px;
+			line-height: 50px;
+			padding-bottom: 25px;
+			border-bottom: 1px solid #e5b062;
+		}
+		.wrapper-content{
+			padding-top: 30px; 
+		}
+			.content-heading{
+				text-transform: uppercase;
+				margin-bottom: 25px;
+			}
+		.content>p{
+			margin-bottom: 25px;
+			font-size: 18px;
+			line-height: 25px;
+		}
+		.content p span.text-code{
+			padding: 15px;
+			display: block;
+			background-color: white;
+			/*font-family: CourierBold;*/
+			font-family: 'AvenirLight';
+		    border: 1px solid #FFD3BB;
+		}
+.architecture-drawing{
+	max-width: 786px;
+	margin-bottom: 50px;
+}
+	.version-bg{
+		height: 280px;
+		position: relative;
+	}
+		.version-bg>p{
+			padding: 7px 0;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'CourierBold';
+			font-weight: bold;
+		}
+	.routs-bg{
+		height: 280px;
+		width: 90%;
+		left: 5%;
+		padding: 0 20px;
+		margin: 0 auto;
+		position: absolute;
+	}
+		.routs-bg>p{
+			padding: 10px;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'CourierBold';
+			font-weight: bold;
+		}
+			.boxes-bg{
+				border-radius: 3px 3px 0 0;
+			}
+			.boxes-bg>p{
+				padding: 10px;
+				text-align: center;
+				text-transform: uppercase;
+				font-family: 'CourierBold';
+				font-weight: bold;
+				color: #fff;
+			}
+			.box-bg-content{
+				padding: 12px 8px;
+				height: 165px;
+				background-color: white;
+			}
+				.box-bg-content>p{
+					font-family: 'CourierBold';
+					color: #494848;
+					font-weight: bold;
+					margin-bottom: 5px;
+				}
+.before-after-content{
+	margin-bottom: 20px;
+}
+	.before-after-code{
+		padding: 10px;
+	}
+		.code-heading{
+			padding: 2px 5px;
+			font-size: 8px;
+			color: #4a90e2;
+		}
+		.before-after-code>p{
+			color: #4a90e2;
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+			.before-after-code>p>span{
+				display: block;
+				padding-left: 15px;
+				margin-top: 5px;
+			}
+	.before-white-bg{
+		background-color: #fff;
+		padding-right: 0 !important;
+		padding-top: 50px;
+		margin-top: -46px;
+		z-index: -9;
+		margin-left: 2%;
+		width: 47.5%;
+		margin-right: .5%;
+		height: 660px;
+	}
+	.after-white-bg{
+		background-color: #fff;
+		padding-right: 0 !important;
+		padding-top: 50px;
+		margin-top: -46px;
+		z-index: -9;
+		margin-right: 2%;
+		width: 47.5%;
+		margin-left: .5%;
+		height: 660px;
+	}
+.no-right-padding{
+	padding-right: 0!important;
+}
+
+.code-description-heading{
+	color: #7B7B7B;
+    background-color: #FFD3BB;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contributor-heading{
+	font-family: HelveticaBold;
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+	.cb-addition{
+		font-family: HelveticaBold;
+		color: #383838;
+		margin-bottom: 300px;
+	}
+		.cb-addition p{
+			font-size: 18px;
+			line-height: 22px;
+			margin-bottom: 30px;
+		}
+		.cb-addition h2{
+			color: #000;
+			font-size: 17px;
+			font-weight: bold;
+			margin-bottom: 30px;
+		}

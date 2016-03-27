@@ -1,0 +1,72 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Box > Blocks</h3>
+                    <h3 class="content-heading black-color">Blocks</h3>
+
+                    <p>Stylesheets / <br>
+                        <span class="indent"></span>Box/<br>
+                        <span class="indent"></span><span class="indent"></span>blocks.css<br>
+                    </p>
+
+                    <p>RichCSS divides pages in 2 simple categories: Rows and Blocks. The Header & Footer are rows and all content on your page is on a row. Since blocks are containers, they allow you to define how elements appears next to each other on these rows.</p>
+
+                    <p>Rows are block containers and Blocks are element containers.</p>
+
+                    <p>Every single block must be independent from any other elements on the page. They should be used to wrap elements.</p>
+
+                    <p>Sections of a website are blocks. Popups or modals are blocks.</p>
+
+                    <p>Blocks can have children blocks that belong to the main blocks. To add a child block you need to indent them. Take the following:</p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in box/block.css</span>
+                        <span class="text-code orange-text">
+                            .parent-block{<br/>
+                             <span class="indent"></span>.children-block{}<br/>
+                            }<br/>
+                            <br/>
+                            .auth-modal-block{<br/>
+                            <br/>
+                            }<br/>
+                        </span>
+                    </p>
+
+                    <p>To create containers of popups or modals you can also use blocks.</p>
+                    <p>Blocks are container of one or many elements.</p>
+
+                    <h3 class="content-heading black-color">Grouped Blocks</h3>
+                    <p>If you’re using SASS with RichCSS; You could also organize your block by creating a blocks folder and including every block inside the block.scss file.</p>
+
+
+                    <p>Stylesheets / <br/>
+                        <span class="indent"></span>Box/<br/>
+                        <span class="indent"></span><span class="indent"></span>blocks/<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="indent"></span>homepage_block.scss<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="indent"></span>dashboard_block.scss<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="indent"></span>menu_block.scss<br>
+                        <span class="indent"></span><span class="indent"></span>blocks.scss
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading">In block.scss</span>
+                        <span class="text-code orange-text">
+                            @import <span class="black-text">'blocks/homepage_block.scss';</span><br/>
+                            @import <span class="black-text">'blocks/dashboard_block.scss';</span><br/>
+                            @import <span class="black-text">'blocks/menu_block.scss';</span><br/>
+                    </p>
+
+                    <p>It will help to keep your code organized.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

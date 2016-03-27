@@ -1,0 +1,136 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Elements Guides > The suffixes syntax</h3>
+                    <h3 class="content-heading black-color">The Suffixes Syntax</h3>
+
+                    <p>Button elements include but are not limited to the following tags:<br/>
+                        TAGS: &#60;button&#62;, &#60;a&#62;&#60;/p&#62;
+                    </p>
+
+                    <h3 class="content-heading black-color">Class Elements suffix</h3>
+
+                    <table>
+                        <tr>
+                            <th>Suffix Name</th>
+                            <th>Suffix short name</th>
+                        </tr>
+                        <tr>
+                            <td>-blocks</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-header</td>
+                            <td>-hd</td>
+                        </tr>
+                        <tr>
+                            <td>-text</td>
+                            <td>-txt</td>
+                        </tr>
+                        <tr>
+                            <td>-border</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-button</td>
+                            <td>-btn</td>
+                        </tr>
+                        <tr>
+                            <td>-link</td>
+                            <td>-lk</td>
+                        </tr>
+                        <tr>
+                            <td>-background</td>
+                            <td>-bg</td>
+                        </tr>
+                        <tr>
+                            <td>-icon</td>
+                            <td>-icon</td>
+                        </tr>
+                        <tr>
+                            <td>-image</td>
+                            <td>-img</td>
+                        </tr>
+                        <tr>
+                            <td>-input</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-modal</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-label</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-title</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                     </table>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b></span>
+                        <span class="text-code orange-text">
+                          .black-bg {  background-color: #000000; }<br/>
+                          .blue-btn {  background-color: #4A90E2; color: #FFFFFF; }<br/>
+                          .auth-modal-block{}<br/>
+                          .grey-text { color: #696969; }<br/>
+                        </span>
+                    </p>
+
+                    <h3 class="content-heading black-color">Positions Suffix</h3>
+
+                    <table>
+                        <tr>
+                            <th>Suffix Name</th>
+                            <th>Suffix short name</th>
+                        </tr>
+                        <tr>
+                            <td>-alignment</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-right</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                        <tr>
+                            <td>-left</td>
+                            <td class="light-blue-text">NO SUFFIX</td>
+                        </tr>
+                     </table>
+
+                    <h3 class="content-heading black-color">Custom Suffix</h3>
+
+                    <p>In some cases; using a suffix for naming won’t be possible. If the suffix does not clearly represent the context of the class, you can create a custom one:</p>
+
+                     <h3 class="content-heading black-color">Guide elements with optional suffix</h3>
+
+                     <p>In the context of some guides; there will be cases where the use of a suffix is not required.
+Unordered list (ul) and Ordered list (ol) for instance do not need a suffix. When the use of a suffix does not help emphasize the context of that element, you can omit to use one.</p>
+
+                     <p>
+                        <span class="code-description-heading"><b>Example</b></span>
+                        <span class="text-code orange-text">
+                            ul.navbar{<br/>
+                            <span class="indent"></span>li.navbar-item {}<br/>
+                            }
+                        </span>
+                    </p>
+
+                    <p>Note: To avoid class repetition, the custom suffix -item was used here to differentiate the .navbar class for its child element .navbar-item.</p>
+
+                    <p>The next sections will show you the use case for each guide and  how to add your css inside each of them.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

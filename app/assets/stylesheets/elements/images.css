@@ -1,0 +1,81 @@
+.big-logo .logo-text{
+	display: inline-block;
+}
+	.logo-text .big-text{
+		font-size: 44px;
+		width: 115.5px;
+	 	height: 41.5px;
+		line-height: 42px;
+		display: block;
+		font-weight: bolder;
+	}
+	.logo-text .small-text{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.big-logo-img{
+		display: inline-block;
+		margin-top: -60px;
+		vertical-align: text-top;
+	}
+/*Big Logo Ends*/
+.tree-img-section{
+	margin-top: 15px;
+}
+	.tree-img-section>img{
+		width: 350px;
+		height: 300px;
+		margin-top: 50px;
+		margin-left: 90px;
+	}
+	.tree-img-section>span{
+		position: absolute;
+		width: 137px;
+		height: 87px;
+		background: transparent url('bubble.png') 100% 100% no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-size: cover;
+		right: 195px;
+		top: -16px;
+	}
+/*Tree Ends*/
+.before-section img, .after-section img{
+	vertical-align: middle;
+	margin: 0 6px;
+	height: 29px;
+}
+.after-section img{
+	margin-top: -5px;
+}
+/*Before After Ends*/
+.usable>img{
+	width: 414px;
+	height: 255px;
+	margin: 0 auto;
+	display: block;
+}
+/*Usable Not Usable Ends*/
+.install-with-rail img{
+	height: 42px;
+	margin-right: 20px;
+	width: 34px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/*Installion Ends*/
+.thanks img{
+	opacity: .5;
+	width: 172px;
+	height: 120px;
+}
+/*Index Ends*/
+.small-logo-img {
+    width: 35px;
+    height: 50px;
+    margin-left: -35px;
+}
+
+.box-model-img{
+	width: 600px;
+}

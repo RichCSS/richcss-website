@@ -1,0 +1,119 @@
+.white-color{
+	color: #fff;
+}
+.black-color{
+	color: #000;
+}
+.black-text{
+	color: #000;
+}
+.maroon-text{
+	color: #a52a2a;
+}
+.orange-text{
+	color: #f96b1f;
+}
+.light-blue-text{
+	color: rgba(65, 131, 215, 0.39);
+}
+.light-orange-text{
+	color: #ec6c57;
+}
+.dark-grey-text{
+	color: #494848; 
+}
+.light-gray-text{
+	color: #949494;
+}
+.lighter-gray-text{
+	color: #9c9b9d;
+}
+.yellow-text{
+	color: #dba900;
+}
+.red-text{
+	color: #d0021b;
+}
+.red-light-text{
+	color: #db504a;
+}
+.brown-text{
+	color: #ca7d20;
+}
+.light-brown-text{
+	color: #e5b062;
+}
+.blue-text{
+	color: #4a90e2;
+}
+.green-top-text{
+	color: #32bd8d;
+}
+.green-text{
+	color: #27ae60;
+}
+.red-bg{
+	background-color: #dd3328;
+}
+.yellow-bg{
+	background-color: #f1d36c;
+}
+.brown-bg{
+	background-color: #e5b062;
+}
+.black-bg{
+	background-color: #000;
+}
+.white-bg{
+	background-color: #fff;
+}
+.version-bg{
+	background-color: #9b9b9b;
+}
+.routs-bg{
+	background-color: #d9d9d9;
+}
+.boxes-bg{
+	background-color: #515151;
+}
+.code-light-blue{
+	background-color: #f9fcff;
+}
+.code-dark-blue{
+	background-color: #ebf5ff;
+}
+.body-bg{
+	background-color: #fffbed;
+}
+.table-green-bg{
+	background-color: #46bd7b;
+	color: white;
+}
+.table-orange-bg{
+	background-color: #ffc074;
+	color: white;
+}
+.table-red-bg{
+	background-color: #e74c3c;
+	color: white;
+}
+
+.table-grey-bg{
+	background-color: #f0f0f0;
+	color: #858181;
+}
+
+.table-blue-bg{
+	background-color: #4a90e2;
+	color: white;
+}
+
+.table-green-row-bg{
+	background-color: #daf2e5;
+}
+.table-orange-row-bg{
+	background-color: #fff3e4;
+}
+.table-red-row-bg{
+	background-color: #fbdcd8;
+}

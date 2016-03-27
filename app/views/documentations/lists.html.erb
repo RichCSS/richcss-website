@@ -1,0 +1,47 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Elements > Lists</h3>
+                    <h3 class="content-heading black-color">Lists</h3>
+
+                    <p>List elements include but are not limited to the following tags:<br/>
+                    TAGS: &#60;li&#62;, &#60;ul&#62;, &#60;ol&#62;, &#60;table&#62;
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in elements/lists.scss</span>
+                        <span class="text-code orange-text">
+                            ul.navbar {<br/>
+                            <span class="indent"></span>list-style-type: none;<br/>
+                            <span class="indent"></span>margin: 0;<br/>
+                            <span class="indent"></span>padding: 0; }<br/>
+                            <span class="indent"></span>ul.navbar li {<br/>
+                            <span class="indent"></span><span class="indent"></span>font-family: AvenirNext-Regular;<br/>
+                            <span class="indent"></span><span class="indent"></span>font-size: 14px;<br/>
+                            <span class="indent"></span><span class="indent"></span>line-height: 20px;<br/>
+                            <span class="indent"></span><span class="indent"></span>display: inline;<br/>
+                            <span class="indent"></span><span class="indent"></span>margin: 0 20px 0 20px; }<br/>
+                            <span class="indent"></span><span class="indent"></span>ul.navbar li a {<br/>
+                            <span class="indent"></span><span class="indent"></span><span class="indent"></span>text-decoration: none; }<br/>
+                            <span class="indent"></span><span class="indent"></span>ul.navbar li a:hover {<br/>
+                            <span class="indent"></span><span class="indent"></span><span class="indent"></span>text-decoration: none; }<br/>
+                            <span class="indent"></span><span class="indent"></span>ul.navbar li a:visited {<br/>
+                            <span class="indent"></span><span class="indent"></span><span class="indent"></span>text-decoration: none; }<br/>
+                            }<br/>
+                        </span>
+                    </p>
+
+                    <p>Note: You do not need to add the ul selector before classes, but this is a good practice.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,133 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Versioning</h3>
+                    <h3 class="content-heading black-color">Versioning</h3>
+
+                    <p>You can set versioning in RichCSS. This is done by adding namespace folders. It is usually recommended to use SASS for versioning. Although, you can still do it with CSS.</p>
+
+                    <h3 class="content-heading black-color">Versioning with CSS</h3>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in index.html: </span>
+                        <span class="text-code orange-text">
+                            &#60;html&#62;<br/>
+                            <span class="indent"></span>&#60;head&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/blocks.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/main.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/position.css'&#62;<br/>
+                                <br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/button.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/colors.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/features.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/fonts.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/images.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/forms.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/lists.css'&#62;<br/>
+                                <br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/v1/import.css'&#62;<br/>
+                            <span class="indent"></span>&#60;/head&#62;<br/>
+                            <span class="indent"></span>&#60;body&#62;<br/>
+                            <span class="indent"></span>&#60;/body&#62;<br/>
+                            &#60;/html&#62;
+                        </span>
+                    <p>
+
+                    <h3 class="content-heading black-color">Versioning with SASS</h3>
+
+                    <p>
+                        Stylesheets / <br/>
+                         <span class="indent"></span> V1/<br/>
+                         <span class="indent"></span> <span class="indent"></span> Box/<br/>
+                         <span class="indent"></span> <span class="indent"></span> Elements/<br/>
+                         <span class="indent"></span> <span class="indent"></span> Parts/<br/>
+                         <span class="indent"></span> V2/<br/>
+                         <span class="indent"></span> <span class="indent"></span> Box/<br/>
+                         <span class="indent"></span> <span class="indent"></span> Elements/<br/>
+                         <span class="indent"></span> <span class="indent"></span> Parts/<br/>
+                         <span class="indent"></span>route.scss
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Then you can add the following</b> — in route.scss: </span>
+                        <span class="text-code orange-text">
+                            @import <span class="black-text">'blocks/homepage_block.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/box/blocks.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/box/main.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/box/position.scss'</span>;<br/>
+                            <br/>
+                            @import <span class="black-text">'v1/elements/buttons.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/elements/colors.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/elements/features.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/elements/fonts.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/elements/images.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/elements/forms.scss'</span>;<br/>
+                            @import <span class="black-text">'v1/elements/lists.scss'</span>;<br/>
+                            <br/>
+                            @import <span class="black-text">'v1/parts/import.scss'</span>;
+                        </span>
+                    </p>
+
+                    <p>This makes your CSS versions more simple to follow and update via the routes.scss file:</p>
+
+                    <div class="table-versions-block">
+                        <h1 class="version-title">Version</h1>
+                        <div class="table-routes-block">
+                            <h1>Routes</h1>
+                            <table class="table-white-border">
+                                <tr>
+                                    <th class="table-green-bg">Box</th>
+                                    <th class="table-orange-bg">Elements</th>
+                                    <th class="table-red-bg">Parts</th>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg">main</td>
+                                    <td class="table-orange-row-bg">buttons</td>
+                                    <td class="table-red-row-bg">import</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg">positioning</td>
+                                    <td class="table-orange-row-bg">colors</td>
+                                    <td class="table-red-row-bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg">blocks</td>
+                                    <td class="table-orange-row-bg">features</td>
+                                    <td class="table-red-row-bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg"></td>
+                                    <td class="table-orange-row-bg">fonts</td>
+                                    <td class="table-red-row-bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg"></td>
+                                    <td class="table-orange-row-bg">images</td>
+                                    <td class="table-red-row-bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg"></td>
+                                    <td class="table-orange-row-bg">inputs</td>
+                                    <td class="table-red-row-bg"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-green-row-bg"></td>
+                                    <td class="table-orange-row-bg">lists</td>
+                                    <td class="table-red-row-bg"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,94 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Parts & CLI</h3>
+                    <h3 class="content-heading black-color">Parts</h3>
+
+                    <p>The parts folder contains external styles.</p>
+                    <p>If you were to add Mansonry into your app you would put all the css in a file located in your Parts folder:</p>
+
+                    <p>
+                        Stylesheets/<br/>
+                        <span class="indent"></span>Box/<br/>
+                        <span class="indent"></span>Elements/<br/>
+                        <span class="indent"></span>Parts/<br/>
+                        <span class="indent"></span><span class="indent"></span><span class="blue-text">mansonry.css</span><br/>
+                        <span class="indent"></span> import.css
+                    </p>
+
+                     <p>
+                        <span class="code-description-heading"><b>Example</b> — In parts/mansonry.css</span>
+                        <span class="text-code orange-text">
+                            .grid-item { <br/>
+                            <span class="indent"></span>width: 200px;<br/> 
+                            } <br/>
+                            .grid-item--width2 {<br/>
+                            <span class="indent"></span>width: 400px;<br/>
+                            }
+                        </span>
+                    </p>
+
+                    <p>With SASS you could then just require the file inside your import.scss file.</p>
+                    
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — In import.scss </span>
+                        <span class="text-code orange-text">
+                            @import <span class="black-text">'parts/masonry.css';</span><br/>
+                        </span>
+                    </p>
+
+                    <h3 class="content-heading black-color">RichCSS Command Line Interface</h3>
+
+                    <p>RichCSS CLI is the command line package manager for the RichCSS framework. Its a tool to manage your CSS using the RichCSS framework. It also includes a package manager to help install and create your own RichCSS parts for others to use.</p>
+
+                    <p>RichCSS CLI has support for:
+                        <ul class="unordered-list-items">
+                            <li>Parts Dependency Management</li>
+                            <li>SASS</li>
+                            <li>LESS</li>
+                            <li>Minified CSS</li>
+                        </ul>
+                    </p>
+
+                    <p>Both CSS and SASS are supported</p>
+
+                    <h3 class="content-heading black-color">Installation</h3>
+
+                    <p>
+                        <span class="code-description-heading">Add this line to your application's Gemfile:</span>
+                        <span class="text-code orange-text">
+                            gem 'richcss'
+                        </span>
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading">And then execute:</span>
+                        <span class="text-code orange-text">
+                            $ bundle
+                        </span>
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading">Or install it yourself as:</span>
+                        <span class="text-code orange-text">
+                            $ gem install richcss
+                        </span>
+                    </p>
+
+                    <p>Github: <a href="https://github.com/fdp-A4/richcss-cli">https://github.com/fdp-A4/richcss-cli</a></p>
+
+
+                    <h3 class="content-heading black-color">Import</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

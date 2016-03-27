@@ -1,0 +1,9 @@
+.search-form input.find-input{
+	border: 1px solid #e5b062;
+	width: 84.5%;
+	display: inline-block;
+	height: 57px;
+	padding: 12px;
+	color: #e5b062;
+	margin-top: 16px;
+}

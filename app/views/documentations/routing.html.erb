@@ -1,0 +1,77 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Routing</h3>
+                    <h3 class="content-heading black-color">Routing</h3>
+
+                    <p>The purpose of routing is to let the browser know where your required CSS files are. The best way to do route mapping with RichCSS is with SASS but this documentation will also cover how to do basic routing.</p>
+
+                    <h3 class="content-heading black-color">Basic Routing</h3>
+
+                    <p>Basic routing is done in index.html as usual for CSS.</p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in index.html: </span>
+                        <span class="text-code orange-text">
+                            &#60;html&#62;<br/>
+                            <span class="indent"></span>&#60;head&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/blocks.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/main.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/position.css'&#62;<br/>
+                                 <br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/button.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/colors.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' `href='app/features.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/fonts.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/images.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/forms.css'&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/lists.css'&#62;<br/>
+                                 <br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' href='app/import.css'&#62;<br/>
+                            <span class="indent"></span>&#60;/head&#62;<br/>
+                            <span class="indent"></span>&#60;body&#62;<br/>
+                            <span class="indent"></span>&#60;/body&#62;<br/>
+                             &#60;/html&#62;
+                        </span>
+                    </p>
+
+                    <h3 class="content-heading black-color">Routing with SASS</h3>
+
+                    <p>SASS brings a lot of great functionalities to RichCSS. It is usually recommended to use SASS with RichCSS since it enhance its functionalities.</p>
+
+                    <p>
+                        Stylesheets/<br/> 
+                        <span class="indent"></span>Box/<br/>
+                        <span class="indent"></span>Elements/<br/>
+                        <span class="indent"></span>Parts/<br/>
+                        <span class="indent"></span>route.scss
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in index.html: </span>
+                        <span class="text-code orange-text">
+                            &#60;html&#62;<br/>
+                            <span class="indent"></span>&#60;head&#62;<br/>
+                            <span class="indent"></span><span class="indent"></span>&#60;link rel='stylesheet' <span class="indent"></span>ef='app/route.scss'&#62;<br/>
+                            <span class="indent"></span>&#60;/head&#62;<br/>
+                            <span class="indent"></span>&#60;body&#62;<br/>
+                            <span class="indent"></span>&#60;/body&#62;<br/>
+                            &#60;/html&#62;
+                        </span>
+                    </p>
+
+                    <h3 class="content-heading black-color">Routing with LESS</h3>
+                    <p>Routing with LESS is similar to SASS. Read Routing with SASS.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

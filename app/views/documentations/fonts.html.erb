@@ -1,0 +1,67 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Elements > Fonts</h3>
+                    <h3 class="content-heading black-color">Fonts</h3>
+
+                    <p>Font elements include but are not limited to the following tags:<br>
+                      TAGS: &#60;h1&#62;, &#60;h2&#62;, &#60;h3&#62;, &#60;p&#62;, &#60;pre&#62;
+                    </p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in elements/fonts.css</span>
+                        <span class="text-code orange-text">
+                            h1.events-header-title {<br/>
+                            <span class="indent"></span>font-family: AvenirNext-Medium;<br/>
+                            <span class="indent"></span>font-size: 25px;<br/>
+                            <span class="indent"></span>color: #000000;<br/>
+                            <span class="indent"></span>line-height: 34px;<br/>
+                            <span class="indent"></span>font-weight: 200;<br/>
+                            }<br/>
+                            <br/>
+                            p.setting-text {<br/>
+                            <span class="indent"></span>font-family: AvenirNext-Regular;<br/>
+                            <span class="indent"></span>font-size: 15px;<br/>
+                            <span class="indent"></span>color: #000000;<br/>
+                            <span class="indent"></span>line-height: 20px;<br/>
+                            }<br/>
+                            .filter-label {<br/>
+                            <span class="indent"></span>font-family: AvenirNext-Medium;<br/>
+                            <span class="indent"></span>font-size: 17px;<br/>
+                            <span class="indent"></span>color: #727272;<br/>
+                            <span class="indent"></span>line-height: 23px;<br/>
+                            }<br/>
+                            <br/>
+                            @font-face {<br/>
+                            <span class="indent"></span>font-family: 'MyWebFont'; <br/>
+                            <span class="indent"></span>src: url('myfont.woff2') format('woff2'); <br/>
+                            }<br/>
+                        </span>
+                    </p>
+
+                    <h3 class="content-heading black-color">Grouped Fonts</h3>
+                    <p>If you’re using SASS with RichCSS; You could also organize your fonts by creating a fonts folder and grouping your font per context or pages and including each file inside the fonts.scss file.</p>
+
+
+                    <p>
+                        Stylesheets / <br/>
+                        <span class="indent"></span>Elements/<br/>
+                        <span class="indent"></span> fonts/<br/>
+                        <span class="indent"></span><span class="indent"></span> homepage_font.scss<br/>
+                        <span class="indent"></span><span class="indent"></span> login_font.scss<br/>
+                        <span class="indent"></span><span class="indent"></span> static_font.scss<br/>
+                        <span class="indent"></span> fonts.scss<br/>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

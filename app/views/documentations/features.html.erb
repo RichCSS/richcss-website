@@ -1,0 +1,43 @@
+<section class="inner-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="page-heading">Documentation</p>
+            </div>
+        </div>
+        <div class="row wrapper-content">
+            <%= render 'chapters' %>
+            <div class="col-md-9">
+                <div class="content">
+                    <h3 class="content-heading light-gray-text">Documentation > Elements > Features</h3>
+                    <h3 class="content-heading black-color">Features</h3>
+
+                    <p>Feature elements include but are not limited to the following tags:<br/>
+                        TAGS: &#60;hr&#62;, &#60;video&#62;&#60;/p&#62;
+                    </p>
+
+                    <p>Elements that are used to define a thematic change in the content can be put in the Features Guide</p>
+
+                    <p>
+                        <span class="code-description-heading"><b>Example</b> — in elements/features.css</span>
+                        <span class="text-code orange-text">
+                        hr {<br/>
+                        <span class="indent"></span>display: block;<br/>
+                        <span class="indent"></span>margin-top: 0.5em;<br/>
+                        <span class="indent"></span>margin-bottom: 0.5em;<br/>
+                        <span class="indent"></span>margin-left: auto;<br/>
+                        <span class="indent"></span>margin-right: auto;<br/>
+                        <span class="indent"></span>border-style: inset;<br/>
+                        <span class="indent"></span>border-width: 1px;<br/>
+                        }
+                        </span>   
+                    </p>
+
+                    <p>A group of elements that will have non reusable child element styles outside of the context of these elements, can also be put in the Features Guide.</p>
+                    <br/>
+                    <p>Example: A Search bar has an input field and a button. That button and input style will not be used outside of the context of the search-feature.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
