@@ -1,22 +1,22 @@
 @font-face {
     font-family: AvenirHeavy;
-    src: url("AvenirHeavy.ttf");
+    src: url("../AvenirHeavy.ttf");
 }
 @font-face {
     font-family: AvenirLight;
-    src: url("AvenirLight.ttf");
+    src: url("../AvenirLight.ttf");
 }
 @font-face {
     font-family: CourierBold;
-    src: url("courier-bold.ttf");
+    src: url("../courier-bold.ttf");
 }
 @font-face {
     font-family: HelveticaBold;
-    src: url("Helvetica-Bold.ttf");
+    src: url("../Helvetica-Bold.ttf");
 }
 @font-face {
     font-family: HelveticaNeue;
-    src: url("HelveticaNeue Medium.ttf");
+    src: url("../HelveticaNeue Medium.ttf");
 }
 body{
 	font-family: AvenirHeavy;
