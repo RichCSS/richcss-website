@@ -12,6 +12,6 @@ class PagesController < ApplicationController
   end
 
   def find
-  	redirect_to "http://www.cssparts.com/parts/search?utf8=%E2%9C%93&search=#{params[:find]}&commit=%E2%8C%95"
+  	redirect_to "http://www.cssparts.com/parts/search?search=#{params[:find]}"
   end
 end
