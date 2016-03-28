@@ -62,7 +62,7 @@
 .be-af-list-first>li>span:before, .be-af-list-second>li>span:before{
 	content: '';
 	height: 20px;
-	background-image: url(../folder.svg);
+	background-image: url(<%= asset_path('folder.svg') %>);
 	-webkit-background-size: cover;
 	vertical-align: bottom;
 	background-size: cover;
@@ -87,7 +87,7 @@
 		.be-af-list-third>li>span:before{
 			content: '';
 			height: 20px;
-			background-image: url(../sheet.svg);
+			background-image: url(<%= asset_path('sheet.svg') %>);
 			-webkit-background-size: cover;
 			vertical-align: bottom;
 			background-size: cover;

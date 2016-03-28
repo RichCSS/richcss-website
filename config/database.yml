@@ -3,7 +3,7 @@ development:
   encoding: unicode
   database: richcss_development
   pool: 5
-  username: root
+  username: richardson
   password:
 
 production:
@@ -19,7 +19,7 @@ test:
   encoding: unicode
   database: richcss_test
   pool: 5
-  username: root
+  username: 
   password:
 
 # SQLite version 3.x
