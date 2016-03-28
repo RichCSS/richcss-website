@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-  	@title = "Homepage"
+  	@title = "Beautiful, DRY, Clean and Reusable CSS - The CSS Framework for your Team"
   end
 
   def acknowledgements
