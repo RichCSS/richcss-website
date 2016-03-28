@@ -4,7 +4,10 @@
   <title>RichCSS</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <%= favicon_link_tag 'logo.ico' %>
+  <%= favicon_link_tag 'favicon-16.png',  type: "image/png", sizes: "16x16" %>
+  <%= favicon_link_tag 'favicon-32.png',  type: "image/png", sizes: "32x32" %>
+  <%= favicon_link_tag 'favicon-96.png',  type: "image/png", sizes: "96x96" %>
+
   <title>RichCSS || <%= @title %> </title>
 </head>
 <body class="body-bg">
